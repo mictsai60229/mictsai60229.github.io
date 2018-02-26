@@ -1,1 +1,83 @@
-Hello World
+<!DOCTYPE HTML>
+<html>
+<head>
+    <!-- coding : utf-8 -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Lastest IE version -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- RWD -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title -->
+    <title>Hi, I'm JJC</title>
+
+    <meta name=“description” content="Personal Webpage of JJC">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" />
+    <!-- <link rel="stylesheet" href="static/css/index/main.css" /> -->
+
+    <!-- icon -->
+    <!-- <link rel="shortcut icon" href="static/img/favicon.png" /> -->
+
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+    <!-- <script src="static/js/index/main.js"></script> -->
+    <!-- <script src="static/js/common.js"></script> -->
+    <style>
+        body, .container, .dimmer {
+            background: #FCFCFC url(/static/img/bg.jpg) repeat;
+        }
+        .container {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+  <!-- <div class="ui large basic modal"> -->
+  <div class="container">
+    <div class="ui centered link raised card">
+      <div class="image">
+        <img src="/static/img/mictsai.jpg">
+      </div>
+      <div class="content">
+        <a class="header">mictsai</a>
+        <div class="meta">
+          <span class="name">Programmar</span>
+        </div>
+        <div class="description">
+          HearthStone , Swimming
+        </div>
+        <br>
+      </div>
+      <div class="extra content">
+        <a href="https://github.com/mictsai60229" target="_blank">
+          <i class="github large icon" data-content="Visit my github! &#x1F913;"></i>
+        </a>
+        <a href="https://www.facebook.com/fortcfsh" target="_blank">
+          <i class="facebook large icon" data-content="Let's what's going on &#x1F644;"></i>
+        </a>
+        <a href="https://www.youtube.com/watch?v=PBplpprOdyw" target="_blank">
+          <i class="youtube play large icon" data-content="Watch my favorite videos &#x1F4FD;"></i>
+        </a>
+      </div>
+    <!-- </div> -->
+  </div>
+  </div>
+  <script type="text/javascript">
+    // $('.ui.modal').modal({
+    //     closable: false,
+    //     inverted: true,
+    // });
+    // $('.ui.modal').modal('show');
+    $('.extra.content i.icon').popup();
+  </script>
+</body>
+
+</html>
